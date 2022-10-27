@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T01:57:17.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mtDP39h-sWGgzxlnAgqY" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T02:00:25.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="b5Q3eZbklqcXVIxkSBoO" version="20.5.1" type="github">
   <diagram id="KuiJVW5VL6G9EVJq28LL" name="第 1 页">
     <mxGraphModel dx="830" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,43 @@
         </mxCell>
         <mxCell id="P4OBujrNx8n9AJKJjuBE-17" value="&lt;p style=&quot;margin: 10px auto; padding: 0px; line-height: 1.5; font-size: 13px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;按操作数据分为：字节流（InputStream、OutputStream）和字符流（Reader、Writer）&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; line-height: 1.5; font-size: 13px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;按流向分：输入流（Reader、InputStream）和输出流（Writer、OutputStream）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="414" y="10" width="360" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="P4OBujrNx8n9AJKJjuBE-19" target="P4OBujrNx8n9AJKJjuBE-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="670" />
+              <mxPoint x="160" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="P4OBujrNx8n9AJKJjuBE-19" target="P4OBujrNx8n9AJKJjuBE-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P4OBujrNx8n9AJKJjuBE-19" target="P4OBujrNx8n9AJKJjuBE-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="670" />
+              <mxPoint x="160" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-19" value="nio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-20" value="&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Channel（通道）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-21" value="&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Buffer（缓冲区）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-22" value="&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Selector（选择器）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="750" as="sourcePoint" />
+            <mxPoint x="400" y="700" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
