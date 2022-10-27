@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T01:47:48.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="C7jq6Mk8RJfip9aZ-0x0" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T01:57:17.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mtDP39h-sWGgzxlnAgqY" version="20.5.1" type="github">
   <diagram id="KuiJVW5VL6G9EVJq28LL" name="第 1 页">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="P4OBujrNx8n9AJKJjuBE-1" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="260" y="140" width="400" height="240" as="geometry" />
+          <mxGeometry x="20" y="210" width="400" height="240" as="geometry" />
         </mxCell>
         <mxCell id="P4OBujrNx8n9AJKJjuBE-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="P4OBujrNx8n9AJKJjuBE-1">
           <mxGeometry width="400" height="80" as="geometry" />
@@ -33,7 +33,7 @@
             <mxRectangle width="133" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P4OBujrNx8n9AJKJjuBE-8" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="P4OBujrNx8n9AJKJjuBE-6">
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-8" value="&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;流&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="P4OBujrNx8n9AJKJjuBE-6">
           <mxGeometry x="133" width="134" height="80" as="geometry">
             <mxRectangle width="134" height="80" as="alternateBounds" />
           </mxGeometry>
@@ -51,7 +51,7 @@
             <mxRectangle width="133" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P4OBujrNx8n9AJKJjuBE-12" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="P4OBujrNx8n9AJKJjuBE-10">
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-12" value="&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;同步、阻塞&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="P4OBujrNx8n9AJKJjuBE-10">
           <mxGeometry x="133" width="134" height="80" as="geometry">
             <mxRectangle width="134" height="80" as="alternateBounds" />
           </mxGeometry>
@@ -60,6 +60,15 @@
           <mxGeometry x="267" width="133" height="80" as="geometry">
             <mxRectangle width="133" height="80" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-14" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;同步与异步&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;阻塞与非阻塞&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-16" value="&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;IO: input/output&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P4OBujrNx8n9AJKJjuBE-17" value="&lt;p style=&quot;margin: 10px auto; padding: 0px; line-height: 1.5; font-size: 13px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;按操作数据分为：字节流（InputStream、OutputStream）和字符流（Reader、Writer）&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; line-height: 1.5; font-size: 13px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;按流向分：输入流（Reader、InputStream）和输出流（Writer、OutputStream）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="10" width="360" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
